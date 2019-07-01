@@ -11,9 +11,9 @@ window.onload = function () {
 var s = Snap("#clockDiv");
 Snap.load("clock.svg", function(f) {
 //Add SVG elements
-second = f.select("#secondnew");
-minute = f.select("#minutenew");
-hour = f.select("#hournew");
+second = f.select("#secondnewnew");
+minute = f.select("#minutenewnew");
+hour = f.select("#hournewnew");
 //Run animation function for the first time
 animateTime();
 //Append SVG to DIV
@@ -30,7 +30,7 @@ function animateTime() {
 //Move second needle halfway
   second.transform('r' + (seconds*6-3) + ',200,200');
 //Animate the second needle the rest of the way
- second.animate({transform: 'r' + (seconds*6) + ',200,200'}, 0, mina.elastic)
+ second.animate({transform: 'r' + (seconds*6) + ',200,200'}, 0, mina.elastic);
 
 //Move minute needle
   minute.transform('r' + (minutes*6) + ',200,200');
@@ -47,7 +47,8 @@ function animateTime() {
 ;
 		</script>
     </head>
-    <body bgcolor="black">
+    <body bgcolor="black"> 
+    <!--<body> -->
 <!--Here's the DIV that will hold the animated SVG icon-->
 <div id="clockDiv"></div>		
     </body>
