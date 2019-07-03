@@ -38,7 +38,7 @@ function animateTime() {
   var daysLeft = Math.ceil((endOfYear.getTime() - timeNow.getTime())/oneDay);
 
   day.transform('r' + (daysLeft*(360/365)) + ',200,200');  
-  console.log("days left "+daysLeft+ "days gone: " + (timeNow.getTime()/oneDay));
+  //console.log("days left "+daysLeft+ "days gone: " + (timeNow.getTime()/oneDay));
 //Move second needle halfway
   second.transform('r' + (seconds*6-3) + ',200,200');
 //Animate the second needle the rest of the way
@@ -61,7 +61,7 @@ function animateTime() {
 //     normal24.animate({r:0}, 1000);
 //Move minute needle
   minute.transform('r' + (minutes*6) + ',200,200');
-  console.log(minutes);
+  //console.log(minutes);
 //Only animate the minute needle when the minute changes
   if(seconds == 0){minute.transform('r' + (minutes*6-3) + ',200,200');
   minute.animate({transform: 'r' + (minutes*6) + ',200,200'}, 0, mina.elastic);}
