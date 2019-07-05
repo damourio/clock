@@ -29,9 +29,9 @@
      inkscape:window-height="1051"
      id="namedview58"
      showgrid="false"
-     inkscape:zoom="1.882041"
-     inkscape:cx="240.94846"
-     inkscape:cy="226.56278"
+     inkscape:zoom="3.764082"
+     inkscape:cx="204.9878"
+     inkscape:cy="309.61446"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -810,19 +810,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter3428"
-       x="-0.67368224"
-       width="2.3473645"
-       y="-0.21957425"
-       height="1.4391485">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="8.3166807"
-         id="feGaussianBlur3430" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter3572"
        x="-0.4944"
        width="1.9888"
@@ -867,6 +854,19 @@
        prop_scale="1"
        scale_y_rel="false"
        vertical="false" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4032"
+       x="-0.32492203"
+       width="1.6498441"
+       y="-0.10590232"
+       height="1.2118046">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.0111979"
+         id="feGaussianBlur4034" />
+    </filter>
   </defs>
   <metadata
      id="metadata7">
@@ -9328,16 +9328,16 @@
        cy="38.841167"
        r="10.626761" />
     <ellipse
-       style="opacity:0.71428571;vector-effect:none;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3428)"
+       style="opacity:0.312;vector-effect:none;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4032)"
        id="hour"
-       cx="199.91237"
+       cx="197.91237"
        cy="80.095535"
        rx="14.814131"
        ry="45.451672" />
     <ellipse
        style="opacity:0.66600001;vector-effect:none;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3882)"
        id="day"
-       cx="198.72043"
+       cx="194.72043"
        cy="13.185898"
        rx="6.9073949"
        ry="13.81479"
