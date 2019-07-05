@@ -11,15 +11,14 @@ window.onload = function () {
 var s = Snap("#clockDiv");
 Snap.load("clock.svg", function(f) {
 //Add SVG elements
-second = f.select("#secondnewnew");
-minute = f.select("#minutenewnew");
-hour = f.select("#hournewnew");
+second = f.select("#second");
+minute = f.select("#minute");
+hour = f.select("#hour");
 day=f.select("#day");
 //Run animation function for the first time
-f.selectAll("#normal24").attr({fill: "#bada55"});
-// normal24_00 = f.select("#normal24_00");
-normal24 = f.select("#normal24");
-
+//f.selectAll("#normal24").attr({fill: "#bada55"});
+//  g00 = f.select("#g00");
+  normal24 = f.select("#normal24");
 
 animateTime();
 //Append SVG to DIV 
@@ -45,21 +44,18 @@ function animateTime() {
  second.animate({transform: 'r' + (seconds*6) + ',200,200'}, 0, mina.elastic);
  
 
-//  second.attr({
-//     fill: "#fff",
-//     stroke: "#000",
-//     strokeWidth: 5});
-//  normal24_00.attr({
-//     fill: "#fff",
-//     stroke: "#000",
-//     strokeWidth: 5});
-// normal24_00.animate({r:0}, 1000);
-//   normal24.attr({
-//     fill: "#fff",
-//     stroke: "#000",
-//     strokeWidth: 5});
-//     normal24.animate({r:0}, 1000);
+ normal24.attr({
+    fill: "#000",
+    stroke: "#000",
+    strokeWidth: 5});
+
+  // normal24.attr({
+  //   fill: "#fff",
+  //   stroke: "#000",
+  //   strokeWidth: 5});
+  //  normal24.animate({r:0}, 1000);
 //Move minute needle
+
   minute.transform('r' + (minutes*6) + ',200,200');
   //console.log(minutes);
 //Only animate the minute needle when the minute changes
